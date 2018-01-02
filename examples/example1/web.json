@@ -21,12 +21,12 @@
          { "mapping": "","dir" : "./frontend"}
        ]
      },
-     "slax" : {
+     "slaxes" : {
        "paths" :[
          { "mapping": "/chapters","dir" : "./frontend/chapters"}
        ]
      },
-     "backend"  : ""
+     "custom"  : ""
   }
 
 }

@@ -98,9 +98,9 @@
   "router" : {
      "statics" : [
      ],
-     "slax" : [
+     "slaxes" : [
      ],
-     "backend"  : ""
+     "custom"  : ""
   },
 
   "store": {
