@@ -1,0 +1,32 @@
+{
+  "env": "development",
+  "host" : "localhost",
+  "port" : 8080,
+  "ssl" : false,
+  "timezone": "UTC",
+  
+  "system"  : {
+  	"name" : "TodoExample",
+  	"url"  : "http://localhost:8080",
+  	"company" : {
+  		"name" : "hudaokeji",
+  		"address" : "nanchang",
+  		"hp"      : "http://hudaokeji.com"
+  	}
+  },
+
+  "router" : {
+     "statics" : {
+       "paths" :[
+         { "mapping": "","dir" : "./frontend"}
+       ]
+     },
+     "slax" : {
+       "paths" :[
+         { "mapping": "/chapters","dir" : "./frontend/chapters"}
+       ]
+     },
+     "backend"  : ""
+  }
+
+}
