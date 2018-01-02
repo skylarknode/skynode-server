@@ -10,10 +10,6 @@ $ npm install skynode-server --save
 
 ## Usage
 
-``` bash
-$ hexo server
-```
-
 ## License
 
 MIT
