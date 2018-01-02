@@ -2,13 +2,13 @@
   "name": "skynode-server",
   "version": "0.9.0",
   "description": "An universal nodejs server module.",
-  "main": "index",
-  "scripts": {
-    "eslint": "eslint .",
-    "jscs": "jscs .",
-    "test": "mocha test/index.js",
-    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  "bin": {
+      "snodesrv": "./bin/cli.js"
   },
+  "scripts": {
+      "start": "node ./bin/cli.js"
+  },
+  "main": "./lib/server.js",
   "directories": {
     "lib": "./lib"
   },
