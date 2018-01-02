@@ -27,6 +27,10 @@
        ]
      },
      "custom"  : "./backend/routes"
+  },
+
+  "views" : {
+    "handlebars" : false
   }
 
 }
