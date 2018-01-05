@@ -1,128 +1,126 @@
 {
-  "env": "development",
-  "host" : "localhost",
-  "port" : 8080,
-  "ssl" : false,
-  "timezone": "UTC",
-  "root" : "",
+    "env": "development",
+    "host": "localhost",
+    "port": 8080,
+    "ssl": false,
+    "timezone": "UTC",
+    "root": "",
 
-  "system"  : {
-    "name" : "example",
-    "url"  : "http://localhost:8080",
-    "company" : {
-      "name" : "hudaokeji",
-      "address" : "nanchang",
-      "hp"      : "http://hudaokeji.com"
-    }
-  },
-
-  "assets" : {
-     "less" : {
-        "paths" : []
-     },
-         
-     "sass" : {
-        "paths" : []
-     }
-  },
-
-  "error" : {
-     "erroring" : true
-  },
-
-  "http" : {
-     "bodyParser" : {
-        "json" : true,
-        "urlencoded" : true
-     },
-     
-     "compress" : {
-        "level" : -1
-     },
-     
-     "cookie" : {
-        "max-age": 86400
-     },
-     
-     "cors" : true,
-
-     "csrf" : {
-        "ignore" : []
-     },
-
-     
-     "header" : {
-        "X-Powered-By" : "sky"
-     },
-     
-    
-     "rest" : true,
-     
-     "restrict" : {
-        "max-request-size": "1MB",
-        "ip-enabled-range" : "*"
-     },
-     
-     "session" : {
-        "secret"  : "sky",
-        "saveUninitialized" : true,
-        "resave" : false,
-        "cookie": {
-            "httpOnly": true,
-            "maxAge": 7200000 
+    "system": {
+        "name": "example",
+        "url": "http://localhost:8080",
+        "company": {
+            "name": "hudaokeji",
+            "address": "nanchang",
+            "hp": "http://hudaokeji.com"
         }
-     }
-  },
-
-  "logger" : {
-    "access" : {
-      "logfile" : "access.log",
-      "logdir"  : "logs",
-      "rotating" : "1d"
     },
-    "dev" : true
-  },
 
-  "mailer": {
-    "adapter": "sendmail",
-    "sendmail": {},
-    "smtp": {
-      "service": "Gmail",
-      "auth": {
-          "user": "",
-          "pass": ""
-      }
-    }
-  },
+    "assets": {
+        "less": {
+            "paths": []
+        },
 
-  "router" : {
-     "statics" : [
-     ],
-     "slaxes" : [
-     ],
-     "custom"  : ""
-  },
-
-  "store": {
-    "adapter": "sqlite",
-    "sqlite": {
-      "location": "jsbin.sqlite"
+        "sass": {
+            "paths": []
+        }
     },
-    "mysql": {
-      "host": "localhost",
-      "user": "root",
-      "password": "",
-      "database": "",
-      "charset": "utf8mb4",
-      "collate": "utf8mb4_unicode_ci"
-    }
-  },
 
-  "views" : {
-    "handlebars" : {
-        "extname" : "hbs",
-        "viewsDir" : "backend/views",
-        "partialsDir" : "backend/views/partials"
+    "error": {
+        "erroring": true
+    },
+
+    "http": {
+        "bodyParser": {
+            "json": true,
+            "urlencoded": true
+        },
+
+        "compress": {
+            "level": -1
+        },
+
+        "cookie": {
+            "max-age": 86400
+        },
+
+        "cors": true,
+
+        "csrf": {
+            "ignore": []
+        },
+
+
+        "header": {
+            "X-Powered-By": "sky"
+        },
+
+
+        "rest": true,
+
+        "restrict": {
+            "max-request-size": "1MB",
+            "ip-enabled-range": "*"
+        },
+
+        "session": {
+            "secret": "sky",
+            "saveUninitialized": true,
+            "resave": false,
+            "cookie": {
+                "httpOnly": true,
+                "maxAge": 7200000
+            }
+        }
+    },
+
+    "logger": {
+        "access": {
+            "logfile": "access.log",
+            "logdir": "logs",
+            "rotating": "1d"
+        },
+        "dev": true
+    },
+
+    "mailer": {
+        "adapter": "sendmail",
+        "sendmail": {},
+        "smtp": {
+            "service": "Gmail",
+            "auth": {
+                "user": "",
+                "pass": ""
+            }
+        }
+    },
+
+    "router": {
+        "statics": [],
+        "slaxes": [],
+        "custom": ""
+    },
+
+    "store": {
+        "adapter": "sqlite",
+        "sqlite": {
+            "location": "jsbin.sqlite"
+        },
+        "mysql": {
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "",
+            "charset": "utf8mb4",
+            "collate": "utf8mb4_unicode_ci"
+        }
+    },
+
+    "views": {
+        "handlebars": {
+            "extname": "hbs",
+            "viewsDir": "backend/app/views",
+            "partialsDir": "backend/app/views/partials"
+        }
     }
-  }
 }
