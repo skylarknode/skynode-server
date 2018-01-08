@@ -51,6 +51,7 @@
             "ignore": []
         },
 
+        "flash" : false,
 
         "header": {
             "X-Powered-By": "sky"
