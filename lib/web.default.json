@@ -47,8 +47,6 @@
             "max-age": 86400
         },
 
-        "cors": true,
-
         "csrf": {
             "ignore": []
         },
@@ -57,7 +55,6 @@
         "header": {
             "X-Powered-By": "sky"
         },
-
 
         "rest": true,
 
@@ -98,6 +95,11 @@
         }
     },
 
+    "restapi" : {
+        "cors" : true,
+        "jsonp" : false,
+        "ajax" : false
+    },
     "router": {
         "statics": [],
         "slaxes": [],
