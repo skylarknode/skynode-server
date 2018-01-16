@@ -110,7 +110,8 @@
     "store": {
         "adapter": "sqlite",
         "sqlite": {
-            "location": "jsbin.sqlite"
+            "location": "jsbin.sqlite",
+            "initScript" : ""
         },
         "mysql": {
             "host": "localhost",
