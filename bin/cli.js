@@ -2,9 +2,9 @@
 
 var cmd = require('commander'),
     path = require('path'),
-    fs = require('fs'),
-    server;
+    fs = require('fs');
 
+    
 function error(msg) {
   console.error('\n  error: ' + msg + '\n');
   process.exit(1);
@@ -47,6 +47,5 @@ cmd.option('-e --env <development>', 'deployment environment', function (env) {
 
 cmd.parse(process.argv);
 
-server  = require('../lib/server.js');
+require('../lib/index.js').start();
 
-server.start();

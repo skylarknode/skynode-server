@@ -2,13 +2,16 @@
     "env": "development",
     "host": "localhost",
     "port": 8080,
-    "ssl": false,
     "timezone": "UTC",
     "root": "",
 
     "system": {
         "name": "example",
-        "url": "http://localhost:8080",
+        "url":  {
+            "host" : "localhost:8080",
+            "ssl": false,
+            "prefix": ""
+        },
         "company": {
             "name": "hudaokeji",
             "address": "nanchang",
@@ -44,17 +47,15 @@
             "max-age": 86400
         },
 
-        "cors": true,
-
         "csrf": {
             "ignore": []
         },
 
+        "flash" : false,
 
         "header": {
             "X-Powered-By": "sky"
         },
-
 
         "rest": true,
 
@@ -95,6 +96,11 @@
         }
     },
 
+    "restapi" : {
+        "cors" : true,
+        "jsonp" : false,
+        "ajax" : false
+    },
     "router": {
         "statics": [],
         "slaxes": [],
@@ -104,7 +110,8 @@
     "store": {
         "adapter": "sqlite",
         "sqlite": {
-            "location": "jsbin.sqlite"
+            "location": "jsbin.sqlite",
+            "initScript" : ""
         },
         "mysql": {
             "host": "localhost",
