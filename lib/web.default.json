@@ -119,8 +119,8 @@
     "views": {
         "handlebars": {
             "extname": "hbs",
-            "viewsDir": "backend/app/views",
-            "partialsDir": "backend/app/views/partials"
+            "viewsDir": "backend/views",
+            "partialsDir": "backend/views/partials"
         }
     }
 }
