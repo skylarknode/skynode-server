@@ -38,6 +38,7 @@
     "express": "^4.13.4",
     "express-flash": "0.0.2",
     "express-session": "^1.15.6",
+    "feature-gateway": "0.0.4",
     "hbs-utils": "0.0.4",
     "is-plain-object": "^2.0.4",
     "keystone-utils": "^0.4.0",
