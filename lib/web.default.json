@@ -33,46 +33,54 @@
         "erroring": true
     },
 
-    "http": {
-        "bodyParser": {
-            "json": true,
-            "urlencoded": true
-        },
+    "middlewares" :{
+        "http": {
+            "bodyParser": {
+                "json": true,
+                "urlencoded": true
+            },
 
-        "compress": {
-            "level": -1
-        },
+            "compress": {
+                "level": -1
+            },
 
-        "cookie": {
-            "max-age": 86400
-        },
-
-        "csrf": {
-            "ignore": []
-        },
-
-        "flash" : false,
-
-        "header": {
-            "X-Powered-By": "sky"
-        },
-
-        "rest": true,
-
-        "restrict": {
-            "max-request-size": "1MB",
-            "ip-enabled-range": "*"
-        },
-
-        "session": {
-            "secret": "sky",
-            "saveUninitialized": true,
-            "resave": false,
             "cookie": {
-                "httpOnly": true,
-                "maxAge": 7200000
+                "max-age": 86400
+            },
+
+            "csrf": {
+                "ignore": []
+            },
+
+            "flash" : false,
+
+            "header": {
+                "X-Powered-By": "sky"
+            },
+
+            "rest": true,
+
+            "restrict": {
+                "max-request-size": "1MB",
+                "ip-enabled-range": "*"
+            },
+
+            "session": {
+                "secret": "sky",
+                "saveUninitialized": true,
+                "resave": false,
+                "cookie": {
+                    "httpOnly": true,
+                    "maxAge": 7200000
+                }
             }
-        }
+        },
+        "restapi" : {
+            "cors" : true,
+            "jsonp" : false,
+            "ajax" : false
+        },
+        "custom": ""        
     },
 
     "logger": {
@@ -96,11 +104,6 @@
         }
     },
 
-    "restapi" : {
-        "cors" : true,
-        "jsonp" : false,
-        "ajax" : false
-    },
     "router": {
         "statics": [],
         "slaxes": [],
@@ -124,10 +127,18 @@
     },
 
     "views": {
-        "handlebars": {
-            "extname": "hbs",
-            "viewsDir": "backend/views",
-            "partialsDir": "backend/views/partials"
+        "-examples-" : {
+            "handlebars": {
+                "extname": "hbs",
+                "viewsDir": "backend/views",
+                "partialsDir": "backend/views/partials"
+            },       
+            "haml": {
+                "extname": "haml",
+                "viewsDir": "backend/views",
+                "partialsDir": "backend/views/partials"
+            }
         }
+
     }
 }
