@@ -16,7 +16,8 @@
             "name": "hudaokeji",
             "address": "nanchang",
             "hp": "http://hudaokeji.com"
-        }
+        },
+        "private" : false
     },
 
     "assets": {

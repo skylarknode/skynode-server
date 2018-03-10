@@ -36,6 +36,7 @@
     "errorhandler": "^1.5.0",
     "events": "^1.1.1",
     "express": "^4.13.4",
+    "express-basic-auth": "^1.1.4",
     "express-flash": "0.0.2",
     "express-hbs": "^1.0.3",
     "express-session": "^1.15.6",
