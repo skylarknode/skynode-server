@@ -70,6 +70,7 @@
 
             "session": {
                 "secret": "sky",
+                "key" : "skynode-session-id",
                 "saveUninitialized": true,
                 "resave": false,
                 "cookie": {
