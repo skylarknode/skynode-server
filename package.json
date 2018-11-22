@@ -82,7 +82,7 @@
     "skynode-fs": "https://github.com/skylarknode/skynode-fs#master",
     "skylark-langx": "https://github.com/skylarkjs/skylark-langx#master",
     "spider-detector": "^1.0.18",
-    "sqlite3": "^3.1.13",
+    "sqlite3": "^4.0.0",
     "stylus": "^0.54.5",
     "toobusy-js": "^0.5.1",
     "undefsafe": "^2.0.1",
