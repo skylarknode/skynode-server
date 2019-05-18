@@ -1,0 +1,1160 @@
+Microsoft Windows [Version 10.0.16299.125]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\lwf>cd C:\Studio\Repo\utilhub\backend\webapps\sitegen
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm install
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+npm WARN deprecated to-iso-string@0.0.2: to-iso-string has been deprecated, use @segment/to-iso-string instead.
+npm WARN deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated formatio@1.1.1: This package is unmaintained. Use @sinonjs/formatio instead
+npm WARN prefer global jsonlint@1.6.3 should be installed with -g
+npm WARN prefer global node-gyp@3.6.2 should be installed with -g
+
+> dtrace-provider@0.8.6 install C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\dtrace-provider
+> node-gyp rebuild || node suppress-error.js
+
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\dtrace-provider>if not defined npm_config_node_gyp (node "C:\Studio\WorkSpace\UtilHub+\SoftStack\NodeJS\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild )
+gyp ERR! configure error
+gyp ERR! stack Error: Can't find Python executable "python", you can set the PYTHON env variable.
+gyp ERR! stack     at failNoPython (C:\Studio\WorkSpace\UtilHub+\SoftStack\NodeJS\node_modules\npm\node_modules\node-gyp\lib\configure.js:401:14)
+gyp ERR! stack     at C:\Studio\WorkSpace\UtilHub+\SoftStack\NodeJS\node_modules\npm\node_modules\node-gyp\lib\configure.js:356:11
+gyp ERR! stack     at FSReqWrap.oncomplete (fs.js:123:15)
+gyp ERR! System Windows_NT 10.0.16299
+gyp ERR! command "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node.exe" "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+gyp ERR! cwd C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\dtrace-provider
+gyp ERR! node -v v6.5.0
+gyp ERR! node-gyp -v v3.3.1
+gyp ERR! not ok
+
+> node-sass@4.7.2 install C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\node-sass
+> node scripts/install.js
+
+Cached binary found at C:\Users\lwf\AppData\Roaming\npm-cache\node-sass\4.7.2\win32-x64-48_binding.node
+
+> node-sass@4.7.2 postinstall C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\node-sass\vendor\win32-x64-48\binding.node
+Testing binary
+Binary is fine
+hd-homepage@0.9.0 C:\Studio\Repo\utilhub\backend\webapps\sitegen
++-- bcryptjs@2.4.3
++-- chai@3.5.0
+| +-- assertion-error@1.1.0
+| +-- deep-eql@0.1.3
+| | `-- type-detect@0.1.1
+| `-- type-detect@1.0.0
++-- copy-dir@0.3.0
+| `-- mkdir-p@0.0.7
++-- ejs@2.5.7
++-- eslint@1.10.3
+| +-- chalk@1.1.3
+| | +-- ansi-styles@2.2.1
+| | +-- has-ansi@2.0.0
+| | +-- strip-ansi@3.0.1
+| | `-- supports-color@2.0.0
+| +-- concat-stream@1.6.0
+| | +-- inherits@2.0.3
+| | +-- readable-stream@2.3.4
+| | | +-- core-util-is@1.0.2
+| | | +-- isarray@1.0.0
+| | | +-- process-nextick-args@2.0.0
+| | | +-- string_decoder@1.0.3
+| | | `-- util-deprecate@1.0.2
+| | `-- typedarray@0.0.6
+| +-- debug@2.6.9
+| | `-- ms@2.0.0
+| +-- doctrine@0.7.2
+| | +-- esutils@1.1.6
+| | `-- isarray@0.0.1
+| +-- escape-string-regexp@1.0.5
+| +-- escope@3.6.0
+| | +-- es6-map@0.1.5
+| | | +-- d@1.0.0
+| | | +-- es5-ext@0.10.39
+| | | +-- es6-iterator@2.0.3
+| | | +-- es6-set@0.1.5
+| | | +-- es6-symbol@3.1.1
+| | | `-- event-emitter@0.3.5
+| | +-- es6-weak-map@2.0.2
+| | `-- esrecurse@4.2.0
+| +-- espree@2.2.5
+| +-- estraverse@4.2.0
+| +-- estraverse-fb@1.3.2
+| +-- esutils@2.0.2
+| +-- file-entry-cache@1.3.1
+| | `-- flat-cache@1.3.0
+| |   +-- circular-json@0.3.3
+| |   +-- del@2.2.2
+| |   | +-- globby@5.0.0
+| |   | | +-- array-union@1.0.2
+| |   | | | `-- array-uniq@1.0.3
+| |   | | +-- arrify@1.0.1
+| |   | | `-- pify@2.3.0
+| |   | +-- is-path-cwd@1.0.0
+| |   | +-- is-path-in-cwd@1.0.0
+| |   | | `-- is-path-inside@1.0.1
+| |   | `-- pify@2.3.0
+| |   `-- write@0.2.1
+| +-- glob@5.0.15
+| | `-- inflight@1.0.6
+| +-- globals@8.18.0
+| +-- handlebars@4.0.6
+| | +-- optimist@0.6.1
+| | | `-- minimist@0.0.10
+| | +-- source-map@0.4.4
+| | | `-- amdefine@1.0.1
+| | `-- uglify-js@2.8.29
+| |   +-- source-map@0.5.7
+| |   +-- uglify-to-browserify@1.0.2
+| |   `-- yargs@3.10.0
+| |     +-- camelcase@1.2.1
+| |     +-- cliui@2.1.0
+| |     | +-- center-align@0.1.3
+| |     | | +-- align-text@0.1.4
+| |     | | | +-- kind-of@3.2.2
+| |     | | | | `-- is-buffer@1.1.6
+| |     | | | +-- longest@1.0.1
+| |     | | | `-- repeat-string@1.6.1
+| |     | | `-- lazy-cache@1.0.4
+| |     | +-- right-align@0.1.3
+| |     | `-- wordwrap@0.0.2
+| |     +-- decamelize@1.2.0
+| |     `-- window-size@0.1.0
+| +-- inquirer@0.11.4
+| | +-- ansi-escapes@1.4.0
+| | +-- ansi-regex@2.1.1
+| | +-- cli-cursor@1.0.2
+| | | `-- restore-cursor@1.0.1
+| | |   +-- exit-hook@1.1.1
+| | |   `-- onetime@1.1.0
+| | +-- cli-width@1.1.1
+| | +-- figures@1.7.0
+| | +-- lodash@3.10.1
+| | +-- readline2@1.0.1
+| | | +-- code-point-at@1.1.0
+| | | +-- is-fullwidth-code-point@1.0.0
+| | | | `-- number-is-nan@1.0.1
+| | | `-- mute-stream@0.0.5
+| | +-- run-async@0.1.0
+| | +-- rx-lite@3.1.2
+| | +-- string-width@1.0.2
+| | `-- through@2.3.8
+| +-- is-my-json-valid@2.17.2
+| | +-- generate-function@2.0.0
+| | +-- generate-object-property@1.2.0
+| | | `-- is-property@1.0.2
+| | +-- is-my-ip-valid@1.0.0
+| | +-- jsonpointer@4.0.1
+| | `-- xtend@4.0.1
+| +-- is-resolvable@1.1.0
+| +-- js-yaml@3.4.5
+| | +-- argparse@1.0.10
+| | | `-- sprintf-js@1.0.3
+| | `-- esprima@2.7.3
+| +-- json-stable-stringify@1.0.1
+| | `-- jsonify@0.0.0
+| +-- lodash.clonedeep@3.0.2
+| | +-- lodash._baseclone@3.3.0
+| | | +-- lodash._baseassign@3.2.0
+| | | `-- lodash._basefor@3.0.3
+| | `-- lodash._bindcallback@3.0.1
+| +-- lodash.merge@3.3.2
+| | +-- lodash._arraycopy@3.0.0
+| | +-- lodash._arrayeach@3.0.0
+| | +-- lodash._createassigner@3.1.1
+| | | `-- lodash._isiterateecall@3.0.9
+| | +-- lodash._getnative@3.9.1
+| | +-- lodash.isarguments@3.1.0
+| | +-- lodash.isarray@3.0.4
+| | +-- lodash.isplainobject@3.2.0
+| | +-- lodash.istypedarray@3.0.6
+| | +-- lodash.keys@3.1.2
+| | +-- lodash.keysin@3.0.8
+| | `-- lodash.toplainobject@3.0.0
+| |   `-- lodash._basecopy@3.0.1
+| +-- lodash.omit@3.1.0
+| | +-- lodash._arraymap@3.0.0
+| | +-- lodash._basedifference@3.0.3
+| | | +-- lodash._baseindexof@3.1.0
+| | | +-- lodash._cacheindexof@3.0.2
+| | | `-- lodash._createcache@3.1.2
+| | +-- lodash._baseflatten@3.1.4
+| | +-- lodash._pickbyarray@3.0.2
+| | +-- lodash._pickbycallback@3.0.0
+| | `-- lodash.restparam@3.6.1
+| +-- minimatch@3.0.4
+| | `-- brace-expansion@1.1.11
+| |   +-- balanced-match@1.0.0
+| |   `-- concat-map@0.0.1
+| +-- mkdirp@0.5.1
+| | `-- minimist@0.0.8
+| +-- object-assign@4.1.1
+| +-- optionator@0.6.0
+| | +-- deep-is@0.1.3
+| | +-- fast-levenshtein@1.0.7
+| | +-- levn@0.2.5
+| | +-- prelude-ls@1.1.2
+| | +-- type-check@0.3.2
+| | `-- wordwrap@0.0.3
+| +-- path-is-absolute@1.0.1
+| +-- path-is-inside@1.0.2
+| +-- shelljs@0.5.3
+| +-- strip-json-comments@1.0.4
+| +-- text-table@0.2.0
+| +-- user-home@2.0.0
+| | `-- os-homedir@1.0.2
+| `-- xml-escape@1.0.0
++-- eslint-config-hexo@1.0.6
+| `-- babel-eslint@7.2.3
+|   +-- babel-code-frame@6.26.0
+|   | `-- js-tokens@3.0.2
+|   +-- babel-traverse@6.26.0
+|   | +-- babel-messages@6.23.0
+|   | +-- babel-runtime@6.26.0
+|   | | +-- core-js@2.5.3
+|   | | `-- regenerator-runtime@0.11.1
+|   | +-- globals@9.18.0
+|   | `-- invariant@2.2.3
+|   |   `-- loose-envify@1.3.1
+|   +-- babel-types@6.26.0
+|   | `-- to-fast-properties@1.0.3
+|   `-- babylon@6.18.0
++-- express-hbs@1.0.4
+| +-- js-beautify@1.6.8
+| | +-- config-chain@1.1.11
+| | | +-- ini@1.3.5
+| | | `-- proto-list@1.2.4
+| | `-- editorconfig@0.13.3
+| |   +-- lru-cache@3.2.0
+| |   +-- semver@5.5.0
+| |   `-- sigmund@1.0.1
+| `-- readdirp@2.1.0
+|   +-- graceful-fs@4.1.11
+|   `-- set-immediate-shim@1.0.1
++-- istanbul@0.4.5
+| +-- abbrev@1.0.9
+| +-- async@1.5.2
+| +-- escodegen@1.8.1
+| | +-- esprima@2.7.3
+| | +-- estraverse@1.9.3
+| | +-- optionator@0.8.2
+| | | +-- fast-levenshtein@2.0.6
+| | | +-- levn@0.3.0
+| | | `-- wordwrap@1.0.0
+| | `-- source-map@0.2.0
+| +-- esprima@2.7.3
+| +-- glob@5.0.15
+| +-- nopt@3.0.6
+| | `-- abbrev@1.1.1
+| +-- once@1.4.0
+| | `-- wrappy@1.0.2
+| +-- resolve@1.1.7
+| +-- supports-color@3.2.3
+| | `-- has-flag@1.0.0
+| +-- which@1.3.0
+| | `-- isexe@2.0.0
+| `-- wordwrap@1.0.0
++-- jscs@2.11.0
+| +-- babel-jscs@2.0.5
+| | +-- babel-core@5.8.38
+| | | +-- babel-plugin-constant-folding@1.0.1
+| | | +-- babel-plugin-dead-code-elimination@1.0.2
+| | | +-- babel-plugin-eval@1.0.1
+| | | +-- babel-plugin-inline-environment-variables@1.0.1
+| | | +-- babel-plugin-jscript@1.0.4
+| | | +-- babel-plugin-member-expression-literals@1.0.1
+| | | +-- babel-plugin-property-literals@1.0.1
+| | | +-- babel-plugin-proto-to-assign@1.0.4
+| | | | `-- lodash@3.10.1
+| | | +-- babel-plugin-react-constant-elements@1.0.3
+| | | +-- babel-plugin-react-display-name@1.0.3
+| | | +-- babel-plugin-remove-console@1.0.1
+| | | +-- babel-plugin-remove-debugger@1.0.1
+| | | +-- babel-plugin-runtime@1.0.7
+| | | +-- babel-plugin-undeclared-variables-check@1.0.2
+| | | | `-- leven@1.0.2
+| | | +-- babel-plugin-undefined-to-void@1.1.6
+| | | +-- babylon@5.8.38
+| | | +-- bluebird@2.11.0
+| | | +-- convert-source-map@1.5.1
+| | | +-- core-js@1.2.7
+| | | +-- detect-indent@3.0.1
+| | | | +-- minimist@1.2.0
+| | | | `-- repeating@1.1.3
+| | | +-- fs-readdir-recursive@0.1.2
+| | | +-- globals@6.4.1
+| | | +-- home-or-tmp@1.0.0
+| | | | +-- os-tmpdir@1.0.2
+| | | | `-- user-home@1.1.1
+| | | +-- is-integer@1.0.7
+| | | +-- js-tokens@1.0.1
+| | | +-- json5@0.4.0
+| | | +-- lodash@3.10.1
+| | | +-- minimatch@2.0.10
+| | | +-- output-file-sync@1.1.2
+| | | +-- path-exists@1.0.0
+| | | +-- private@0.1.8
+| | | +-- regenerator@0.8.40
+| | | | +-- commoner@0.10.8
+| | | | | +-- detective@4.7.1
+| | | | | | +-- acorn@5.4.1
+| | | | | | `-- defined@1.0.0
+| | | | | +-- glob@5.0.15
+| | | | | `-- recast@0.11.23
+| | | | |   +-- ast-types@0.9.6
+| | | | |   +-- esprima@3.1.3
+| | | | |   `-- source-map@0.5.7
+| | | | +-- defs@1.1.1
+| | | | | +-- alter@0.2.0
+| | | | | | `-- stable@0.1.6
+| | | | | +-- ast-traverse@0.1.1
+| | | | | +-- breakable@1.0.0
+| | | | | +-- esprima-fb@15001.1001.0-dev-harmony-fb
+| | | | | +-- simple-fmt@0.1.0
+| | | | | +-- simple-is@0.2.0
+| | | | | +-- stringmap@0.2.2
+| | | | | +-- stringset@0.2.1
+| | | | | +-- tryor@0.1.2
+| | | | | `-- yargs@3.27.0
+| | | | |   `-- window-size@0.1.4
+| | | | +-- esprima-fb@15001.1001.0-dev-harmony-fb
+| | | | `-- recast@0.10.33
+| | | |   +-- ast-types@0.8.12
+| | | |   +-- esprima-fb@15001.1001.0-dev-harmony-fb
+| | | |   `-- source-map@0.5.7
+| | | +-- regexpu@1.3.0
+| | | | +-- esprima@2.7.3
+| | | | +-- regenerate@1.3.3
+| | | | +-- regjsgen@0.2.0
+| | | | `-- regjsparser@0.1.5
+| | | |   `-- jsesc@0.5.0
+| | | +-- repeating@1.1.3
+| | | | `-- is-finite@1.0.2
+| | | +-- shebang-regex@1.0.0
+| | | +-- slash@1.0.0
+| | | +-- source-map@0.5.7
+| | | +-- source-map-support@0.2.10
+| | | | `-- source-map@0.1.32
+| | | +-- trim-right@1.0.1
+| | | `-- try-resolve@1.0.1
+| | `-- lodash.assign@3.2.0
+| +-- cli-table@0.3.1
+| | `-- colors@1.0.3
+| +-- commander@2.9.0
+| | `-- graceful-readlink@1.0.1
+| +-- esprima@2.7.3
+| +-- exit@0.1.2
+| +-- glob@5.0.15
+| +-- htmlparser2@3.8.3
+| | +-- domelementtype@1.3.0
+| | +-- domhandler@2.3.0
+| | +-- domutils@1.5.1
+| | | `-- dom-serializer@0.1.0
+| | |   +-- domelementtype@1.1.3
+| | |   `-- entities@1.1.1
+| | +-- entities@1.0.0
+| | `-- readable-stream@1.1.14
+| |   +-- isarray@0.0.1
+| |   `-- string_decoder@0.10.31
+| +-- jscs-jsdoc@1.3.2
+| | +-- comment-parser@0.3.2
+| | `-- jsdoctypeparser@1.2.0
+| |   `-- lodash@3.10.1
+| +-- jscs-preset-wikimedia@1.0.0
+| +-- jsonlint@1.6.3
+| | +-- JSV@4.0.2
+| | `-- nomnom@1.8.1
+| |   +-- chalk@0.4.0
+| |   | +-- ansi-styles@1.0.0
+| |   | +-- has-color@0.1.7
+| |   | `-- strip-ansi@0.1.1
+| |   `-- underscore@1.6.0
+| +-- lodash@3.10.1
+| +-- natural-compare@1.2.2
+| +-- pathval@0.1.1
+| +-- prompt@0.2.14
+| | +-- pkginfo@0.4.1
+| | +-- read@1.0.7
+| | +-- revalidator@0.1.8
+| | +-- utile@0.2.1
+| | | +-- async@0.2.10
+| | | +-- deep-equal@1.0.1
+| | | +-- ncp@0.4.2
+| | | `-- rimraf@2.6.2
+| | `-- winston@0.8.3
+| |   +-- async@0.2.10
+| |   +-- colors@0.6.2
+| |   +-- cycle@1.0.3
+| |   +-- eyes@0.1.8
+| |   +-- isstream@0.1.2
+| |   +-- pkginfo@0.3.1
+| |   `-- stack-trace@0.0.10
+| +-- reserved-words@0.1.2
+| +-- strip-bom@2.0.0
+| | `-- is-utf8@0.2.1
+| +-- to-double-quotes@2.0.0
+| +-- to-single-quotes@2.0.1
+| +-- vow@0.4.17
+| +-- vow-fs@0.3.6
+| | +-- glob@7.1.2
+| | | `-- fs.realpath@1.0.0
+| | `-- vow-queue@0.4.3
+| `-- xmlbuilder@3.1.0
+|   `-- lodash@3.10.1
++-- jscs-preset-hexo@1.0.1
++-- mixin-object@3.0.0
+| +-- for-in@1.0.2
+| `-- is-extendable@1.0.1
++-- mocha@2.5.3
+| +-- commander@2.3.0
+| +-- debug@2.2.0
+| | `-- ms@0.7.1
+| +-- diff@1.4.0
+| +-- escape-string-regexp@1.0.2
+| +-- glob@3.2.11
+| | `-- minimatch@0.3.0
+| |   `-- lru-cache@2.7.3
+| +-- growl@1.9.2
+| +-- jade@0.26.3
+| | +-- commander@0.6.1
+| | `-- mkdirp@0.3.0
+| +-- supports-color@1.2.0
+| `-- to-iso-string@0.0.2
++-- passport@0.4.0
+| +-- passport-strategy@1.0.0
+| `-- pause@0.0.1
++-- passport-local@1.0.0
++-- rmdir@1.2.0
+| `-- node.flow@1.2.3
+|   `-- node.extend@1.0.8
+|     +-- is@0.2.7
+|     `-- object-keys@0.4.0
++-- shortid@2.2.8
++-- sinon@1.17.7
+| +-- formatio@1.1.1
+| +-- lolex@1.3.2
+| +-- samsam@1.1.2
+| `-- util@0.10.3
+|   `-- inherits@2.0.1
++-- skynode-jsonlite@0.9.0  (git+https://github.com/skylarknode/skynode-jsonlite.git#7645e025ce2050654684862d2fea2b4bc5083eb8)
+| +-- lowdb@1.0.0
+| | +-- is-promise@2.1.0
+| | +-- pify@3.0.0
+| | `-- steno@0.4.4
+| +-- pluralize@7.0.0
+| `-- underscore-db@0.12.2
++-- skynode-server@0.9.0  (git+https://github.com/skylarknode/skynode-server.git#9c51b8aae2317144d9480bb1b4417d2f328ba2db)
+| +-- async@2.6.0
+| +-- bluebird@3.5.1
+| +-- body-parser@1.18.2
+| | +-- bytes@3.0.0
+| | +-- content-type@1.0.4
+| | +-- depd@1.1.2
+| | +-- http-errors@1.6.2
+| | | +-- depd@1.1.1
+| | | +-- setprototypeof@1.0.3
+| | | `-- statuses@1.4.0
+| | +-- iconv-lite@0.4.19
+| | +-- on-finished@2.3.0
+| | | `-- ee-first@1.1.1
+| | +-- qs@6.5.1
+| | +-- raw-body@2.3.2
+| | | `-- unpipe@1.0.0
+| | `-- type-is@1.6.16
+| |   +-- media-typer@0.3.0
+| |   `-- mime-types@2.1.18
+| +-- colors@1.1.2
+| +-- commander@2.14.1
+| +-- compression@1.7.2
+| | +-- accepts@1.3.4
+| | +-- compressible@2.0.13
+| | | `-- mime-db@1.33.0
+| | +-- on-headers@1.0.1
+| | +-- safe-buffer@5.1.1
+| | `-- vary@1.1.2
+| +-- cookie-parser@1.4.3
+| | +-- cookie@0.3.1
+| | `-- cookie-signature@1.0.6
+| +-- cookie-session@2.0.0-beta.3
+| | +-- cookies@0.7.1
+| | | `-- keygrip@1.0.2
+| | `-- debug@3.1.0
+| +-- cors@2.8.4
+| +-- csurf@1.9.0
+| | +-- csrf@3.0.6
+| | | +-- rndm@1.2.0
+| | | +-- tsscmp@1.0.5
+| | | `-- uid-safe@2.1.4
+| | `-- http-errors@1.5.1
+| |   `-- setprototypeof@1.0.2
+| +-- errorhandler@1.5.0
+| | `-- escape-html@1.0.3
+| +-- events@1.1.1
+| +-- express@4.16.2
+| | +-- array-flatten@1.1.1
+| | +-- content-disposition@0.5.2
+| | +-- encodeurl@1.0.2
+| | +-- etag@1.8.1
+| | +-- finalhandler@1.1.0
+| | | `-- statuses@1.3.1
+| | +-- fresh@0.5.2
+| | +-- merge-descriptors@1.0.1
+| | +-- parseurl@1.3.2
+| | +-- path-to-regexp@0.1.7
+| | +-- proxy-addr@2.0.3
+| | | +-- forwarded@0.1.2
+| | | `-- ipaddr.js@1.6.0
+| | +-- range-parser@1.2.0
+| | +-- send@0.16.1
+| | | +-- destroy@1.0.4
+| | | +-- mime@1.4.1
+| | | `-- statuses@1.3.1
+| | +-- serve-static@1.13.1
+| | +-- setprototypeof@1.1.0
+| | +-- statuses@1.3.1
+| | `-- utils-merge@1.0.1
+| +-- express-flash@0.0.2
+| | `-- connect-flash@0.1.1
+| +-- express-session@1.15.6
+| | +-- crc@3.4.4
+| | `-- uid-safe@2.1.5
+| |   `-- random-bytes@1.0.0
+| +-- is-plain-object@2.0.4
+| | `-- isobject@3.0.1
+| +-- keystone-utils@0.4.0
+| | +-- html-stringify@0.0.3
+| | +-- i@0.3.6
+| | +-- randomkey@1.0.0
+| | `-- speakingurl@9.0.0
+| +-- less-middleware@2.2.1
+| | +-- less@2.7.3
+| | | +-- errno@0.1.7
+| | | | `-- prr@1.0.1
+| | | +-- image-size@0.5.5
+| | | +-- promise@7.3.1
+| | | | `-- asap@2.0.6
+| | | +-- request@2.81.0
+| | | | +-- aws-sign2@0.6.0
+| | | | +-- aws4@1.6.0
+| | | | +-- caseless@0.12.0
+| | | | +-- extend@3.0.1
+| | | | +-- forever-agent@0.6.1
+| | | | +-- form-data@2.1.4
+| | | | | `-- asynckit@0.4.0
+| | | | +-- har-validator@4.2.1
+| | | | | +-- ajv@4.11.8
+| | | | | | `-- co@4.6.0
+| | | | | `-- har-schema@1.0.5
+| | | | +-- hawk@3.1.3
+| | | | | +-- boom@2.10.1
+| | | | | +-- cryptiles@2.0.5
+| | | | | +-- hoek@2.16.3
+| | | | | `-- sntp@1.0.9
+| | | | +-- http-signature@1.1.1
+| | | | | +-- assert-plus@0.2.0
+| | | | | +-- jsprim@1.4.1
+| | | | | | +-- assert-plus@1.0.0
+| | | | | | `-- json-schema@0.2.3
+| | | | | `-- sshpk@1.13.1
+| | | | |   +-- asn1@0.2.3
+| | | | |   +-- assert-plus@1.0.0
+| | | | |   +-- bcrypt-pbkdf@1.0.1
+| | | | |   +-- dashdash@1.14.1
+| | | | |   | `-- assert-plus@1.0.0
+| | | | |   +-- ecc-jsbn@0.1.1
+| | | | |   +-- getpass@0.1.7
+| | | | |   | `-- assert-plus@1.0.0
+| | | | |   +-- jsbn@0.1.1
+| | | | |   `-- tweetnacl@0.14.5
+| | | | +-- is-typedarray@1.0.0
+| | | | +-- json-stringify-safe@5.0.1
+| | | | +-- oauth-sign@0.8.2
+| | | | +-- performance-now@0.2.0
+| | | | +-- qs@6.4.0
+| | | | +-- stringstream@0.0.5
+| | | | +-- tough-cookie@2.3.3
+| | | | | `-- punycode@1.4.1
+| | | | `-- tunnel-agent@0.6.0
+| | | `-- source-map@0.5.7
+| | `-- node.extend@2.0.0
+| |   `-- is@3.2.1
+| +-- lodash@4.17.5
+| +-- method-override@2.3.10
+| +-- mime@1.6.0
+| +-- morgan@1.9.0
+| | `-- basic-auth@2.0.0
+| +-- multer@1.3.0
+| | +-- append-field@0.1.0
+| | +-- busboy@0.2.14
+| | | +-- dicer@0.2.5
+| | | | +-- readable-stream@1.1.14
+| | | | | +-- isarray@0.0.1
+| | | | | `-- string_decoder@0.10.31
+| | | | `-- streamsearch@0.1.2
+| | | `-- readable-stream@1.1.14
+| | |   +-- isarray@0.0.1
+| | |   `-- string_decoder@0.10.31
+| | `-- object-assign@3.0.0
+| +-- node-sass-middleware@0.11.0
+| | `-- node-sass@4.7.2
+| |   +-- async-foreach@0.1.3
+| |   +-- cross-spawn@3.0.1
+| |   | `-- lru-cache@4.1.1
+| |   +-- gaze@1.1.2
+| |   | `-- globule@1.2.0
+| |   +-- get-stdin@4.0.1
+| |   +-- in-publish@2.0.0
+| |   +-- lodash.assign@4.2.0
+| |   +-- lodash.clonedeep@4.5.0
+| |   +-- lodash.mergewith@4.6.1
+| |   +-- meow@3.7.0
+| |   | +-- camelcase-keys@2.1.0
+| |   | | `-- camelcase@2.1.1
+| |   | +-- loud-rejection@1.6.0
+| |   | | +-- currently-unhandled@0.4.1
+| |   | | | `-- array-find-index@1.0.2
+| |   | | `-- signal-exit@3.0.2
+| |   | +-- map-obj@1.0.1
+| |   | +-- minimist@1.2.0
+| |   | +-- normalize-package-data@2.4.0
+| |   | | +-- hosted-git-info@2.5.0
+| |   | | +-- is-builtin-module@1.0.0
+| |   | | | `-- builtin-modules@1.1.1
+| |   | | `-- validate-npm-package-license@3.0.1
+| |   | |   +-- spdx-correct@1.0.2
+| |   | |   | `-- spdx-license-ids@1.2.2
+| |   | |   `-- spdx-expression-parse@1.0.4
+| |   | +-- read-pkg-up@1.0.1
+| |   | | +-- find-up@1.1.2
+| |   | | | `-- path-exists@2.1.0
+| |   | | `-- read-pkg@1.1.0
+| |   | |   +-- load-json-file@1.1.0
+| |   | |   | +-- parse-json@2.2.0
+| |   | |   | | `-- error-ex@1.3.1
+| |   | |   | |   `-- is-arrayish@0.2.1
+| |   | |   | `-- pify@2.3.0
+| |   | |   `-- path-type@1.1.0
+| |   | |     `-- pify@2.3.0
+| |   | +-- redent@1.0.0
+| |   | | +-- indent-string@2.1.0
+| |   | | | `-- repeating@2.0.1
+| |   | | `-- strip-indent@1.0.1
+| |   | `-- trim-newlines@1.0.0
+| |   +-- nan@2.8.0
+| |   +-- node-gyp@3.6.2
+| |   | +-- fstream@1.0.11
+| |   | +-- osenv@0.1.5
+| |   | +-- semver@5.3.0
+| |   | `-- tar@2.2.1
+| |   |   `-- block-stream@0.0.9
+| |   +-- npmlog@4.1.2
+| |   | +-- are-we-there-yet@1.1.4
+| |   | | `-- delegates@1.0.0
+| |   | +-- console-control-strings@1.1.0
+| |   | +-- gauge@2.7.4
+| |   | | +-- aproba@1.2.0
+| |   | | +-- has-unicode@2.0.1
+| |   | | `-- wide-align@1.1.2
+| |   | `-- set-blocking@2.0.0
+| |   +-- request@2.79.0
+| |   | +-- caseless@0.11.0
+| |   | +-- har-validator@2.0.6
+| |   | +-- qs@6.3.2
+| |   | `-- tunnel-agent@0.4.3
+| |   +-- sass-graph@2.2.4
+| |   | +-- scss-tokenizer@0.2.3
+| |   | | `-- js-base64@2.4.3
+| |   | `-- yargs@7.1.0
+| |   |   +-- camelcase@3.0.0
+| |   |   +-- cliui@3.2.0
+| |   |   | `-- wrap-ansi@2.1.0
+| |   |   +-- get-caller-file@1.0.2
+| |   |   +-- os-locale@1.4.0
+| |   |   | `-- lcid@1.0.0
+| |   |   |   `-- invert-kv@1.0.0
+| |   |   +-- require-directory@2.1.1
+| |   |   +-- require-main-filename@1.0.1
+| |   |   +-- which-module@1.0.0
+| |   |   +-- y18n@3.2.1
+| |   |   `-- yargs-parser@5.0.0
+| |   |     `-- camelcase@3.0.0
+| |   +-- stdout-stream@1.4.0
+| |   `-- true-case-path@1.0.2
+| |     `-- glob@6.0.4
+| +-- node-schedule@1.3.0
+| | +-- cron-parser@2.4.4
+| | | +-- is-nan@1.2.1
+| | | | `-- define-properties@1.1.2
+| | | |   +-- foreach@2.0.5
+| | | |   `-- object-keys@1.0.11
+| | | `-- moment-timezone@0.5.14
+| | +-- long-timeout@0.1.1
+| | `-- sorted-array-functions@1.1.0
+| +-- nodemailer@4.5.0
+| +-- npmlog-ts@0.0.1
+| | `-- ansi@0.3.1
+| +-- opn@4.0.2
+| | `-- pinkie-promise@2.0.1
+| |   `-- pinkie@2.0.4
+| +-- replacestream@4.0.3
+| +-- restify@4.3.2
+| | +-- assert-plus@0.1.5
+| | +-- backoff@2.5.0
+| | | `-- precond@0.2.3
+| | +-- bunyan@1.8.12
+| | | +-- moment@2.20.1
+| | | +-- mv@2.1.1
+| | | | +-- ncp@2.0.0
+| | | | `-- rimraf@2.4.5
+| | | |   `-- glob@6.0.4
+| | | `-- safe-json-stringify@1.1.0
+| | +-- csv@0.4.6
+| | | +-- csv-generate@0.0.6
+| | | +-- csv-parse@1.3.3
+| | | +-- csv-stringify@0.0.8
+| | | `-- stream-transform@0.1.2
+| | +-- dtrace-provider@0.8.6
+| | +-- escape-regexp-component@1.0.2
+| | +-- formidable@1.1.1
+| | +-- http-signature@0.11.0
+| | | +-- asn1@0.1.11
+| | | `-- ctype@0.5.3
+| | +-- keep-alive-agent@0.0.1
+| | +-- lru-cache@4.1.1
+| | | +-- pseudomap@1.0.2
+| | | `-- yallist@2.1.2
+| | +-- negotiator@0.6.1
+| | +-- semver@4.3.6
+| | +-- spdy@3.4.7
+| | | +-- handle-thing@1.2.5
+| | | +-- http-deceiver@1.2.7
+| | | +-- select-hose@2.0.0
+| | | `-- spdy-transport@2.0.20
+| | |   +-- detect-node@2.0.3
+| | |   +-- hpack.js@2.1.6
+| | |   +-- obuf@1.1.1
+| | |   `-- wbuf@1.7.2
+| | |     `-- minimalistic-assert@1.0.0
+| | +-- tunnel-agent@0.4.3
+| | +-- vasync@1.6.3
+| | | `-- verror@1.6.0
+| | |   `-- extsprintf@1.2.0
+| | `-- verror@1.10.0
+| |   +-- assert-plus@1.0.0
+| |   `-- extsprintf@1.3.0
+| +-- rotating-file-stream@1.3.4
+| +-- serve-favicon@2.4.5
+| +-- soak@0.3.0
+| +-- stylus@0.54.5
+| | +-- css-parse@1.7.0
+| | +-- glob@7.0.6
+| | +-- sax@0.5.8
+| | `-- source-map@0.1.43
+| +-- undefsafe@2.0.2
+| +-- ws@1.1.5
+| | +-- options@0.0.6
+| | `-- ultron@1.0.2
+| `-- zip-local@0.3.4
+|   +-- jszip@2.6.1
+|   | `-- pako@1.0.6
+|   `-- q@1.5.1
++-- supertest@1.2.0
+| +-- methods@1.1.2
+| `-- superagent@1.8.5
+|   +-- component-emitter@1.2.1
+|   +-- cookiejar@2.0.6
+|   +-- extend@3.0.0
+|   +-- form-data@1.0.0-rc3
+|   | `-- combined-stream@1.0.6
+|   |   `-- delayed-stream@1.0.0
+|   +-- formidable@1.0.17
+|   +-- mime@1.3.4
+|   +-- qs@2.3.3
+|   +-- readable-stream@1.0.27-1
+|   | +-- isarray@0.0.1
+|   | `-- string_decoder@0.10.31
+|   `-- reduce-component@1.0.1
++-- supertest-promised@1.0.0
+`-- uuid@2.0.3
+
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm start
+
+> hd-homepage@0.9.0 start C:\Studio\Repo\utilhub\backend\webapps\sitegen
+> snodesrv
+
+module.js:457
+    throw err;
+    ^
+
+Error: Cannot find module 'lynx'
+    at Function.Module._resolveFilename (module.js:455:15)
+    at Function.Module._load (module.js:403:25)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\metrics.js:3:12)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+
+npm ERR! Windows_NT 10.0.16299
+npm ERR! argv "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node.exe" "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "start"
+npm ERR! node v6.5.0
+npm ERR! npm  v3.10.3
+npm ERR! code ELIFECYCLE
+npm ERR! hd-homepage@0.9.0 start: `snodesrv`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the hd-homepage@0.9.0 start script 'snodesrv'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the hd-homepage package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     snodesrv
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs hd-homepage
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls hd-homepage
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Studio\Repo\utilhub\backend\webapps\sitegen\npm-debug.log
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm install lynx --save
+hd-homepage@0.9.0 C:\Studio\Repo\utilhub\backend\webapps\sitegen
++-- lynx@0.2.0
+| +-- mersenne@0.0.4
+| `-- statsd-parser@0.0.4
+`-- skynode-server@0.9.0 (git+https://github.com/skylarknode/skynode-server.git#9c51b8aae2317144d9480bb1b4417d2f328ba2db)
+  +-- less-middleware@2.2.1
+  | `-- less@2.7.3
+  |   `-- request@2.81.0
+  |     `-- uuid@3.2.1
+  +-- node-sass-middleware@0.11.0
+  | `-- node-sass@4.7.2
+  |   `-- request@2.79.0
+  |     `-- uuid@3.2.1
+  `-- restify@4.3.2
+    `-- uuid@3.2.1
+
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm start
+
+> hd-homepage@0.9.0 start C:\Studio\Repo\utilhub\backend\webapps\sitegen
+> snodesrv
+
+Config from C:\Studio\Repo\utilhub\backend\webapps\sitegen\web.json
+module.js:457
+    throw err;
+    ^
+
+Error: Cannot find module 'sqlite3'
+    at Function.Module._resolveFilename (module.js:455:15)
+    at Function.Module._load (module.js:403:25)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\stores\sqlite.js:1:96)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+
+npm ERR! Windows_NT 10.0.16299
+npm ERR! argv "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node.exe" "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "start"
+npm ERR! node v6.5.0
+npm ERR! npm  v3.10.3
+npm ERR! code ELIFECYCLE
+npm ERR! hd-homepage@0.9.0 start: `snodesrv`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the hd-homepage@0.9.0 start script 'snodesrv'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the hd-homepage package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     snodesrv
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs hd-homepage
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls hd-homepage
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Studio\Repo\utilhub\backend\webapps\sitegen\npm-debug.log
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm install sqlite3 --save
+
+> sqlite3@3.1.13 install C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\sqlite3
+> node-pre-gyp install --fallback-to-build
+
+[sqlite3] Success: "C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\sqlite3\lib\binding\node-v48-win32-x64\node_sqlite3.node" is installed via remote
+hd-homepage@0.9.0 C:\Studio\Repo\utilhub\backend\webapps\sitegen
+`-- sqlite3@3.1.13
+  +-- nan@2.7.0
+  `-- node-pre-gyp@0.6.38
+    +-- hawk@3.1.3
+    | +-- boom@2.10.1
+    | +-- cryptiles@2.0.5
+    | +-- hoek@2.16.3
+    | `-- sntp@1.0.9
+    +-- mkdirp@0.5.1
+    | `-- minimist@0.0.8
+    +-- nopt@4.0.1
+    | +-- abbrev@1.1.1
+    | `-- osenv@0.1.4
+    |   +-- os-homedir@1.0.2
+    |   `-- os-tmpdir@1.0.2
+    +-- npmlog@4.1.2
+    | +-- are-we-there-yet@1.1.4
+    | | `-- delegates@1.0.0
+    | +-- console-control-strings@1.1.0
+    | +-- gauge@2.7.4
+    | | +-- aproba@1.2.0
+    | | +-- has-unicode@2.0.1
+    | | +-- object-assign@4.1.1
+    | | +-- signal-exit@3.0.2
+    | | +-- string-width@1.0.2
+    | | | +-- code-point-at@1.1.0
+    | | | `-- is-fullwidth-code-point@1.0.0
+    | | |   `-- number-is-nan@1.0.1
+    | | +-- strip-ansi@3.0.1
+    | | | `-- ansi-regex@2.1.1
+    | | `-- wide-align@1.1.2
+    | `-- set-blocking@2.0.0
+    +-- rc@1.2.1
+    | +-- deep-extend@0.4.2
+    | +-- ini@1.3.4
+    | +-- minimist@1.2.0
+    | `-- strip-json-comments@2.0.1
+    +-- request@2.81.0
+    | +-- aws-sign2@0.6.0
+    | +-- aws4@1.6.0
+    | +-- caseless@0.12.0
+    | +-- combined-stream@1.0.5
+    | | `-- delayed-stream@1.0.0
+    | +-- extend@3.0.1
+    | +-- forever-agent@0.6.1
+    | +-- form-data@2.1.4
+    | | `-- asynckit@0.4.0
+    | +-- har-validator@4.2.1
+    | | +-- ajv@4.11.8
+    | | | +-- co@4.6.0
+    | | | `-- json-stable-stringify@1.0.1
+    | | |   `-- jsonify@0.0.0
+    | | `-- har-schema@1.0.5
+    | +-- http-signature@1.1.1
+    | | +-- assert-plus@0.2.0
+    | | +-- jsprim@1.4.1
+    | | | +-- assert-plus@1.0.0
+    | | | +-- extsprintf@1.3.0
+    | | | +-- json-schema@0.2.3
+    | | | `-- verror@1.10.0
+    | | |   `-- assert-plus@1.0.0
+    | | `-- sshpk@1.13.1
+    | |   +-- asn1@0.2.3
+    | |   +-- assert-plus@1.0.0
+    | |   +-- bcrypt-pbkdf@1.0.1
+    | |   +-- dashdash@1.14.1
+    | |   | `-- assert-plus@1.0.0
+    | |   +-- ecc-jsbn@0.1.1
+    | |   +-- getpass@0.1.7
+    | |   | `-- assert-plus@1.0.0
+    | |   +-- jsbn@0.1.1
+    | |   `-- tweetnacl@0.14.5
+    | +-- is-typedarray@1.0.0
+    | +-- isstream@0.1.2
+    | +-- json-stringify-safe@5.0.1
+    | +-- mime-types@2.1.17
+    | | `-- mime-db@1.30.0
+    | +-- oauth-sign@0.8.2
+    | +-- performance-now@0.2.0
+    | +-- qs@6.4.0
+    | +-- safe-buffer@5.1.1
+    | +-- stringstream@0.0.5
+    | +-- tough-cookie@2.3.3
+    | | `-- punycode@1.4.1
+    | +-- tunnel-agent@0.6.0
+    | `-- uuid@3.1.0
+    +-- rimraf@2.6.2
+    | `-- glob@7.1.2
+    |   +-- fs.realpath@1.0.0
+    |   +-- inflight@1.0.6
+    |   +-- minimatch@3.0.4
+    |   | `-- brace-expansion@1.1.8
+    |   |   +-- balanced-match@1.0.0
+    |   |   `-- concat-map@0.0.1
+    |   `-- path-is-absolute@1.0.1
+    +-- semver@5.4.1
+    +-- tar@2.2.1
+    | +-- block-stream@0.0.9
+    | +-- fstream@1.0.11
+    | | `-- graceful-fs@4.1.11
+    | `-- inherits@2.0.3
+    `-- tar-pack@3.4.0
+      +-- debug@2.6.9
+      | `-- ms@2.0.0
+      +-- fstream-ignore@1.0.5
+      +-- once@1.4.0
+      | `-- wrappy@1.0.2
+      +-- readable-stream@2.3.3
+      | +-- core-util-is@1.0.2
+      | +-- isarray@1.0.0
+      | +-- process-nextick-args@1.0.7
+      | +-- string_decoder@1.0.3
+      | `-- util-deprecate@1.0.2
+      `-- uid-number@0.0.6
+
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm start
+
+> hd-homepage@0.9.0 start C:\Studio\Repo\utilhub\backend\webapps\sitegen
+> snodesrv
+
+Config from C:\Studio\Repo\utilhub\backend\webapps\sitegen\web.json
+module.js:457
+    throw err;
+    ^
+
+Error: Cannot find module 'feature-gateway'
+    at Function.Module._resolveFilename (module.js:455:15)
+    at Function.Module._load (module.js:403:25)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\features.js:22:16)
+    at Module._compile (module.js:556:32)
+    at Object.Module._extensions..js (module.js:565:10)
+    at Module.load (module.js:473:32)
+    at tryModuleLoad (module.js:432:12)
+    at Function.Module._load (module.js:424:3)
+
+npm ERR! Windows_NT 10.0.16299
+npm ERR! argv "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node.exe" "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "start"
+npm ERR! node v6.5.0
+npm ERR! npm  v3.10.3
+npm ERR! code ELIFECYCLE
+npm ERR! hd-homepage@0.9.0 start: `snodesrv`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the hd-homepage@0.9.0 start script 'snodesrv'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the hd-homepage package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     snodesrv
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs hd-homepage
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls hd-homepage
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Studio\Repo\utilhub\backend\webapps\sitegen\npm-debug.log
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm install feature-gateway --save
+hd-homepage@0.9.0 C:\Studio\Repo\utilhub\backend\webapps\sitegen
+`-- feature-gateway@0.0.4
+
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm start
+
+> hd-homepage@0.9.0 start C:\Studio\Repo\utilhub\backend\webapps\sitegen
+> snodesrv
+
+Config from C:\Studio\Repo\utilhub\backend\webapps\sitegen\web.json
+module.js:457
+    throw err;
+    ^
+
+Error: Cannot find module 'hbs-utils'
+    at Function.Module._resolveFilename (module.js:455:15)
+    at Function.Module._load (module.js:403:25)
+    at Module.require (module.js:483:17)
+    at require (internal/module.js:20:19)
+    at module.exports (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\views\handlebars.js:25:42)
+    at SkyServer._initViewsEngine (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\server.js:219:38)
+    at SkyServer.init (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\server.js:125:10)
+    at Object.start (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\lib\index.js:53:17)
+    at Object.<anonymous> (C:\Studio\Repo\utilhub\backend\webapps\sitegen\node_modules\skynode-server\bin\cli.js:50:28)
+    at Module._compile (module.js:556:32)
+
+npm ERR! Windows_NT 10.0.16299
+npm ERR! argv "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node.exe" "C:\\Studio\\WorkSpace\\UtilHub+\\SoftStack\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "start"
+npm ERR! node v6.5.0
+npm ERR! npm  v3.10.3
+npm ERR! code ELIFECYCLE
+npm ERR! hd-homepage@0.9.0 start: `snodesrv`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the hd-homepage@0.9.0 start script 'snodesrv'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the hd-homepage package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     snodesrv
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs hd-homepage
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls hd-homepage
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     C:\Studio\Repo\utilhub\backend\webapps\sitegen\npm-debug.log
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm install hbs-utils --save
+hd-homepage@0.9.0 C:\Studio\Repo\utilhub\backend\webapps\sitegen
+`-- hbs-utils@0.0.4
+  +-- node-watch@0.4.1
+  `-- walk@2.3.9
+    `-- foreachasync@3.0.0
+
+
+C:\Studio\Repo\utilhub\backend\webapps\sitegen>npm start
+
+> hd-homepage@0.9.0 start C:\Studio\Repo\utilhub\backend\webapps\sitegen
+> snodesrv
+
+Config from C:\Studio\Repo\utilhub\backend\webapps\sitegen\web.json
+context path:
+context path:/admin
+context path:/vhtml5
+slax route:/
+slax route:/old
+slax route:/ns
+static path:
+static path:/upload
+/
+/about
+/technical
+/development
+/development/templates
+/contact
+/admin/
+/admin/sites
+/admin/sites/:name/pages
+/admin/categories
+/admin/templates
+/admin/posts
+/admin/photos
+/admin/contents
+/admin/categories/pages
+/admin/categories/contents
+/admin/contents/home
+/admin/contents/services
+/admin/contents/about
+/admin/contents/contact
+/admin/contents/development
+/admin/contents/technical
+/admin/categories/posts
+/admin/categories/photos
+/admin/photos/slides
+/admin/photos/details
+This server is up and running on port 8088. Now point your browser at http://localhost:8088
+
