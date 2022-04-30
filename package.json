@@ -89,7 +89,7 @@
     "toobusy-js": "^0.5.1",
     "undefsafe": "^2.0.3",
     "underscore": "^1.12.0",
-    "winston": "^2.0.0",
+    "winston": "^3.0.0",
     "ws": "^7.4.1",
     "zip-local": "^0.3.4"
   },
