@@ -25,7 +25,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "amd-loader": "^0.0.8",
+    "amd-loader": "^0.0.0",
     "async": "^3.0.0",
     "benchpressjs": "^2.0.0",
     "bluebird": "^3.0.0",
@@ -40,7 +40,7 @@
     "debug": "^4.0.0",
     "events": "^3.0.0",
     "express": "^4.0.0",
-    "express-basic-auth": "^1.2.1",
+    "express-basic-auth": "^1.0.0",
     "express-flash": "^0.0.0",
     "express-hbs": "^2.0.0",
     "express-session": "^1.0.0",
