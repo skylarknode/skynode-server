@@ -65,7 +65,7 @@
     "opn": "^6.0.0",
     "replacestream": "^4.0.0",
     "rotating-file-stream": "^3.0.0",
-    "saas": "^1.0.0",
+    "sass": "^1.x",
     "serve-favicon": "^2.0.0",
     "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git",
     "skynode-db": "git+https://github.com/skylarknode/skynode-db.git",
