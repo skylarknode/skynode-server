@@ -25,7 +25,6 @@
     "node": ">=18"
   },
   "dependencies": {
-    "amd-loader": "~0",
     "async": "^3.0.0",
     "benchpressjs": "^2.0.0",
     "bluebird": "^3.0.0",
@@ -67,6 +66,7 @@
     "rotating-file-stream": "^3.0.0",
     "sass": "^1.x",
     "serve-favicon": "^2.0.0",
+    "skynode-define": "git+https://github.com/skylarknode/skynode-define.git",
     "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git",
     "skynode-db": "git+https://github.com/skylarknode/skynode-db.git",
     "skynode-nfs": "git+https://github.com/skylarknode/skynode-nfs.git",
