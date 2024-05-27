@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+require("skynode-define");
 
 var cmd = require('commander'),
     path = require('path'),

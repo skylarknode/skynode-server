@@ -317,8 +317,6 @@ module.exports = function(app, options) {
             var url = parse(req.url);
             var skipCSRF = false;
            ignore.forEach(function(matcher) {
-                console.log("ignore.matcher:" + matcher+"," + typeof matcher );
-
                 if (typeof matcher === 'string') {
                     if ((matcher == "cors") && req.cors) {
                         skipCSRF = true;
