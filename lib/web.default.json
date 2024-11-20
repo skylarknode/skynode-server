@@ -3,7 +3,7 @@
     "host": "localhost",
     "port": 8080,
     "timezone": "UTC",
-    "basedir": "",
+    "root": "",
 
     "system": {
         "name": "example",
@@ -84,7 +84,7 @@
             "useragent" : true
         },
         "restapi" : {
-            "cors" : false,
+            "cors" : true,
             "jsonp" : false,
             "ajax" : false
         },
