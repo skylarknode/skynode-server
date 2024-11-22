@@ -53,7 +53,6 @@
     "lynx": "^0.2.0",
     "memory-cache": "~0",
     "method-override": "^3.0.0",
-    "mime": "^3.0.0",
     "moment": "^2.0.0",
     "morgan": "^1.0.0",
     "multer": "^1.0.0",
